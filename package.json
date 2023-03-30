@@ -1,0 +1,23 @@
+{
+  "name": "javascript_nodalds_w_oop",
+  "version": "1.0.0",
+  "description": "An implementation of a Array-Representable node-based data structures in vanilla `JavaScript` and `TypeScript` for practice.",
+  "main": "binaryHeap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiJohnZhang/javascript_binHeaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YiJohnZhang/javascript_binHeaps/issues"
+  },
+  "homepage": "https://github.com/YiJohnZhang/javascript_binHeaps#readme",
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}
