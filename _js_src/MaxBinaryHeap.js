@@ -1,9 +1,9 @@
 //	John Zhang
-//	derivative of my `BinaryHeap` but a lightweight min Binary Heap for leetcode js heap problems
+//	derivative of my `BinaryHeap` but a lightweight max Binary Heap for leetcode js heap problems
 //	https://github.com/YiJohnZhang/javascript_nodal_DS_w_OOP/blob/main/_js_src/binaryHeap.js
 //	idea: negate all eleements to mimic a max bin heap.
 
-class MinBinaryHeap{
+class MaxBinaryHeap{
 
 	constructor(initArray = []){
 		
@@ -16,7 +16,7 @@ class MinBinaryHeap{
 
 	static willSwapDown(incumbentIndex, contendingIndex){
 
-		return this.arrayRepresentation[incumbentIndex] > this.arrayRepresentation[contendingIndex];
+		return this.arrayRepresentation[incumbentIndex] < this.arrayRepresentation[contendingIndex];
 
 	}
 
